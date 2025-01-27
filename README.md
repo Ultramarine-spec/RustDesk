@@ -1,6 +1,7 @@
 # Rustdesk远控
 
 ## Step 1 选择一个中继服务器(user@ip_address)部署服务端
+**要求控制端能访问中继服务器，中继服务器能访问被控端**
 ```bash
 ssh user@ip_address
 mkdir rustdesk
