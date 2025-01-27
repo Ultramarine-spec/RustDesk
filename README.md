@@ -20,27 +20,27 @@ cat xxx.pub
 # 复制形如xdkAesIOoQlYXIkO9MOFJXSwWB6gjOyglCRc6FsKk90=的内容
 ```
 
-# Step 2 被控端安装rustdesk
+## Step 2 被控端安装rustdesk
 
-## 1. Windows安装
+### 1. Windows安装
 https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.exe
 
-## 2. 选择设置-网络-解锁网络设置
+### 2. 选择设置-网络-解锁网络设置
 ![](./1.png)
 
-## 3. 填入服务器地址之前复制的key，应用
+### 3. 填入服务器地址之前复制的key，应用
 ![](./2.png)
 
-## 4. 启动服务
+### 4. 启动服务
 ![](./3.png)
 
-## 5. 显示被控端ID和密码
+### 5. 显示被控端ID和密码
 ![](./4.png)
 
 ## Step 3 控制端安装rustdesk
 
-## 1-4步同上
+### 1-4步同上
 
-# 5 输入被控端ID，显示如下界面并输入密码，成功远控
+### 5 输入被控端ID，显示如下界面并输入密码，成功远控
 ![](./5.png)
 ![](./6.png)
